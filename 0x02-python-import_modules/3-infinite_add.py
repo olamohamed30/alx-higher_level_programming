@@ -2,12 +2,12 @@
 import sys
 
 if __name__ == "__main__":
-    summ = 0
-    args = len(sys.argv)-1
-    if args == 0:
+    t = 0
+    argc = len(sys.argv) - 1
+
+    if argc == 0:
         print("0")
     else:
-        for i in range(args):
-            summ += int(sys.argv[i+1])
-        print("{}".format(summ))
-
+        for i in range(argc):
+            t += int(sys.argv[i + 1])
+        print("{}".format(t))
