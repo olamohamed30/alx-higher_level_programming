@@ -2,7 +2,6 @@
 # 2-square.py
 """Defines a class Square with a private instance attribute size and validation."""
 
-
 class Square:
     """Square class with a private size attribute and validation."""
 
