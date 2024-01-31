@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+defines a class rec
+"""
 class Rectangle:
     """Represents a rec withw ,h"""
 
